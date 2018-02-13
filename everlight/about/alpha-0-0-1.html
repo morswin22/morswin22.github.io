@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../node_modules/vue/dist/vue.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <a class="navbar-brand" href="../">Everlight</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../game.html">Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Versions</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./beta-0-1-0.html">Beta 0.1.0</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./alpha-0-0-2.html">Alpha 0.0.2</a>
+                            <a class="dropdown-item active" href="./alpha-0-0-1.html">Alpha 0.0.1</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="row my-5">
+            <div class="col">
+                <h1 class="display-4">Change log (v#0.0.1)</h1>
+                <p class="lead">Published on 07-01-2018</p>
+                <p>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">Added</li>
+                        <li class="list-group-item">
+                            <ul style="list-style-type: disc;">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Vestibulum semper feugiat enim, eu iaculis dolor gravida.</li>
+                                <li>Nulla est nulla, aliquam vel ipsum placerat, viverra.</li>
+                                <li>Ut sed pretium sem. Nunc vitae erat nunc.</li>
+                                <li>Phasellus eget convallis risus. Nulla est sapien, maximus.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-warning">Changed</li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                </p>
+                <p>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-danger">Removed</li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="../js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../node_modules/vue/dist/vue.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <a class="navbar-brand" href="./">Everlight</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./game.html">Game</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Versions</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./about/beta-0-1-0.html">Beta 0.1.0</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./about/alpha-0-0-2.html">Alpha 0.0.2</a>
+                            <a class="dropdown-item" href="./about/alpha-0-0-1.html">Alpha 0.0.1</a>
+                          </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="row mt-5 pb-sm-0 pb-md-3 pb-lg-4">
+            <div class="col-md-3"></div>
+            <div class="col-sm-12 col-md-6">
+                <div class="card text-center">
+                    <div class="card-header">Authors</div>
+                    <img src="img/img4.png" style="width:35%;" class="card-image-top mx-auto mt-2" />
+                    <div class="card-body">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a href="./authors/patryk-janiak.html" >Patryk Janiak</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-3">
+            <div class="col-sm-12 col-md-8">
+                <h3>About Everlight history</h3>
+                <p class="lead">How did we get the idea?</p>
+
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt neque id accumsan semper. Praesent mattis semper sapien, vitae condimentum est maximus et. Cras venenatis elementum enim, eget elementum lacus laoreet a. Aliquam iaculis orci nec quam posuere, non vulputate nisl sodales. Cras cursus blandit lorem sed consectetur. Duis scelerisque commodo mi nec lobortis. Vestibulum convallis mi mi, eget dictum odio gravida ac. Nunc aliquam ex blandit velit vulputate semper. Duis elementum, libero vel egestas fringilla, nibh dui egestas augue, eget sollicitudin neque risus at metus. Pellentesque interdum at odio nec mollis.</p>
+            </div>
+            <div class="col-md-4 _fix-display d-sm-none d-md-block text-center">
+                <img src="img/img3.png" class="w-75 rounded-circle" />
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
