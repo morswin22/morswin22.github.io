@@ -1,0 +1,26 @@
+body {
+    background: url('../img/wood.png')!important;
+}
+
+.navbar {
+    background: #8b0000!important;
+}
+
+.btn-primary {
+    border-color: #8b0000!important;;
+    background: #8b0000!important;
+}
+
+ol.carousel-indicators > li {
+    cursor: pointer;
+}
+
+#carousel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.panel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ffffff;
+}
