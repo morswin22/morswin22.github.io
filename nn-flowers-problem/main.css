@@ -1,0 +1,68 @@
+body {
+    display: grid;
+    margin: 0;
+    grid-template-columns: 250px auto;
+    grid-template-rows: 67px auto;
+    grid-template-areas: 
+        'info header'
+        'info content';
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.header {
+    grid-area: header;
+    background: #eeeeee;
+    padding: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.info {
+    grid-area: info;
+    padding: 25px;
+    background: #dddddd;
+    min-height: calc(100vh - 50px);
+}
+
+.content {
+    padding: 15px;
+    background: url('bg.png');
+    background-size: cover;
+}
+
+.nn {
+    display: grid;
+    width: 450px;
+    grid-area: content;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+     'weight calculation test'
+     'muscle calculation test';
+}
+.weight {
+    grid-area: weight;
+}
+.muscle {
+    grid-area: muscle;
+}
+.calculation {
+    padding-top:11px;
+    grid-area: calculation;
+}
+.test {
+    padding-top:11px;
+    grid-area: test;
+}
+
+ul {
+    padding-left: 5px;
+}
+
+.tip {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

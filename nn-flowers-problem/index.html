@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NN Flowers problem</title>
+
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 class="header">Neural Network: The flowers problem</h1>
+
+    <div class="info">
+        <h3>Idea</h3>
+        <p>
+            Biologist had left some notes about two types of plants: with red flowers and with blue flowers.
+            His last entry was left without flower color. This neural network tries to guess the last flower color using biologist data about the rest of plants.
+        </p>
+        <hr>
+        <h3>Data</h3>
+        <ul>
+            <li><i>Length, width, color</i></li>
+
+            <li>1, 1, blue</li>
+            <li>2, 1, blue</li>
+            <li>2, 0.5, blue</li>
+            <li>3, 1, blue</li>
+
+            <li>3, 1.5, red</li>
+            <li>3.5, 0.5, red</li>
+            <li>4, 1.5, red</li>
+            <li>5.5, 1, red</li>
+
+            <li>4.5, 1, ???</li>
+        </ul>
+        <hr>
+        <h3>Styling</h3>
+        <p>
+            Some quick styles, made using grid
+        </p>
+        <hr>
+        <h3>Author</h3>
+        <p>
+            Patryk Janiak
+        </p>
+        <hr>
+    </div>
+
+    <div class="content">
+
+        <div class="nn">
+            <div class="weight">
+                <span id="weight"></span> * <span id="w1"></span>
+            </div>
+            <div class="muscle">
+                <span id="muscle"></span> * <span id="w2"></span>
+            </div>
+            <div class="calculation">
+                <span id="nb"></span> + <span id="b"></span>
+            </div>
+            <div class="test">
+                sigmoid(<span id="calc"></span>) = <span id="test"></span>
+            </div>
+        </div>
+
+        <h6 class="tip">
+            0 - blue <br>
+            1 - red
+        </h6>
+
+        <input id="length" max="10" min="0" type="number" step="0.1"><input id="width" max="10" min="0" type="number" step="0.1"><button onclick="nn(document.getElementById('length').value,document.getElementById('width').value)">Guess</button>
+
+    </div>
+
+    <script src="nn.js"></script>
+
+</body>
+</html>
