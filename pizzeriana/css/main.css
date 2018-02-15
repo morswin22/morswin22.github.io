@@ -7,7 +7,7 @@ body {
 }
 
 .btn-primary {
-    border-color: #8b0000!important;;
+    border-color: #8b0000!important;
     background: #8b0000!important;
 }
 
@@ -23,4 +23,12 @@ ol.carousel-indicators > li {
     padding-top: 10px;
     padding-bottom: 10px;
     background: #ffffff;
+}
+
+.form-control[readonly] {
+    background-color: #ffffff!important;
+}
+
+.pizza-clicker {
+    cursor: pointer;
 }
